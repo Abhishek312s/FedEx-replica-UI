@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 116 116">
+    <defs>
+        <style>
+            /* Hide all of the icons first. */
+            .icon {
+                display: none;
+            }
+
+            .icon--small {
+                display: block;
+            }
+
+
+            /* Display the desired icon and hide the others according to the viewport's size. */
+            @media screen and (min-width: 100px) {
+
+                .icon--large {
+                    display: block;
+                }
+
+                .icon--small {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: 69px){
+                .icon--small * {
+                    stroke-width: 3;
+                }
+            }
+        </style>
+    </defs>
+
+
+    <g class="icon icon--large">
+<path d="M22.83,75.31H20.2a2.08,2.08,0,0,1-2-2.13V45.41" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="85.56" y1="75.31" x2="40.58" y2="75.31" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M6.08,28.34H88.8a3.57,3.57,0,0,1,2.92,1.91L102,52a7.5,7.5,0,0,0,2.7,2.89l4.49,2.45A3.89,3.89,0,0,1,111,60.5V73.18a2.08,2.08,0,0,1-2,2.13h-6.59" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M103.46,53.95H79.11a.4.4,0,0,1-.4-.4v-12a.4.4,0,0,1,.4-.4H96.29a.4.4,0,0,1,.4.4V53.95" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><ellipse cx="93.97" cy="75.31" rx="8.42" ry="8.35" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><ellipse cx="32.17" cy="75.31" rx="8.42" ry="8.35" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><ellipse cx="93.97" cy="75.31" rx="4.41" ry="4.37" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><ellipse cx="32.17" cy="75.31" rx="4.41" ry="4.37" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="18.18" y1="36.82" x2="18.18" y2="28.34" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="24.24" y1="36.82" x2="12.13" y2="36.82" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="1" y1="36.93" x2="8.07" y2="36.93" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="21.63 75.31 11.2 75.31 11.2 70.51 18.18 70.51" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M70.54,46a1.09,1.09,0,1,0-1.09,1.11A1.07,1.07,0,0,0,70.54,46m-1.38.06v.73h-.24V45.22h.59c.34,0,.5.15.5.44a.33.33,0,0,1-.28.34h0c.14,0,.19.14.22.36a1.49,1.49,0,0,0,.1.45h-.28a5,5,0,0,1-.11-.54.24.24,0,0,0-.27-.19Zm.29-.21c.23,0,.3-.12.3-.23s-.07-.23-.3-.23h-.29v.46ZM68.09,46a1.35,1.35,0,1,1,1.35,1.33A1.32,1.32,0,0,1,68.09,46" fill="#4d148c"/><path d="M63.48,43.49l3.25-3.62H62.92l-1.32,1.5-1.37-1.5H53v-1h3.42V36H47.2v4.56h0a2.67,2.67,0,0,0-2.16-.9,3.63,3.63,0,0,0-3.49,2.72,3.76,3.76,0,0,0-3.86-2.75,3.93,3.93,0,0,0-3.57,1.9V40.06H30.74V38.48H34.4V36H27.76V47.14h3V42.46h3a4.38,4.38,0,0,0-.14,1.1,3.91,3.91,0,0,0,4.08,4A3.84,3.84,0,0,0,41.52,45H39a1.29,1.29,0,0,1-1.3.64,1.53,1.53,0,0,1-1.49-1.52h5.21A3.78,3.78,0,0,0,45,47.55a2.55,2.55,0,0,0,2.13-1.13h0v.72H60.13l1.35-1.51,1.39,1.51H66.8Zm-27.23-1a1.44,1.44,0,0,1,1.41-1.17,1.37,1.37,0,0,1,1.42,1.17Zm9.35,3A1.7,1.7,0,0,1,44,43.61c0-1,.52-2,1.57-2s1.52,1,1.52,2-.46,1.83-1.52,1.83M55.83,46.6H50.08V36.54h5.79v1.82H52.45v2h3.38v1.7H52.41v2.7h3.42ZM53,44.19V42.72h3.42V40.06l3.09,3.44-3.09,3.44V44.19Zm8.45.62L59.89,46.6H57.57l2.78-3.1-2.78-3.1H60l1.62,1.77,1.56-1.77h2.35l-2.77,3.08,2.8,3.11H63.08Z" fill="#4d148c"/>    </g>
+
+    <g class="icon icon--small">
+<path d="M96.69,42.16H79.21a.5.5,0,0,0-.5.5V53.77a.5.5,0,0,0,.5.5h23.72" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="94.62" cy="74.18" r="7.77" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="32.01" cy="74.18" r="7.77" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="18.18" y1="38.06" x2="18.18" y2="30.58" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="24.24" y1="38.06" x2="12.13" y2="38.06" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="1" y1="38.06" x2="8.07" y2="38.06" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M24.24,74.47h-4a2,2,0,0,1-2-2V48.07" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="86.85" y1="74.47" x2="39.78" y2="74.47" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M4,30H88.8a3.59,3.59,0,0,1,2.92,1.81L102,52.46a7.27,7.27,0,0,0,2.7,2.73l4.49,2.32A3.65,3.65,0,0,1,111,60.46v12a2,2,0,0,1-2,2h-6.6" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>    </g>
+</svg>
