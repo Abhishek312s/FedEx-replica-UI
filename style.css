@@ -5,13 +5,14 @@ body{
 }
 
 #navbar{
+    font-weight: 400;
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: rgba(72, 2, 129, 0.932);
-    position: fixed;
+    background-color: rgba(72, 2, 129);
+    position: sticky;
+    /* width: 100%; */
     top: 0;
-    width: 100%;
     height: 60px;
     padding: 8px;
     overflow: hidden;
@@ -37,24 +38,22 @@ body{
     height: 7px;
 }
 
-#mainimg{
-    width: 100%;
-    display: block;
-    /* position: relative;
-    top: 75px; */
+.mainimg{
+    padding-top: 50px;
+    background-image: url("/assets/asset 21.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
 }
 
 .imgtxt{
     width: 100%;
     text-align: center;
-    top:75px;
-    position:absolute;
     color: white;
     font-size: 55px;
     font-style: normal;
     font-weight:300;
     letter-spacing: -1px;
-   
 }
 
 .dvmain{
@@ -66,6 +65,7 @@ body{
     height: 120px;
     width: 150px;
     background-color: white;
+    margin-bottom: 15px;
 }
 
 .boximg{
@@ -90,16 +90,37 @@ body{
     font-size: 20px;
     font-weight: 300;
     padding: 27px 8px 10px 15px;
-    width: 100%;
+    width: 414px;
+    border: 0;
+}
+#imginpt::placeholder{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(56, 55, 55);
+    font-family: 'Roboto',sans-serif;
 }
 
+#imgbtn{
+    font-family: 'Roboto',sans-serif;
+    font-size: 19px;
+    color: #fff;
+    background-color: #ff6200;
+    line-height: 12px;
+    position: relative;
+    bottom: 8px;
+    right: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1.11px;
+    padding: 24px 40px;
+    border: 0;
+}
 .inptdiv{
-
-    width: 300px;
+    padding-bottom: 24px;
 
 }
 
-span{
+.boxsp{
     font-size: 14px;
     color: #333;
     display: block;
@@ -108,8 +129,48 @@ span{
     text-transform: uppercase;
 }
 
+#inptdescription{
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 81%;
+    text-align: center;
+}
+#inptdescription a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .container{
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
     /* border: 5px red solid; */
+}
+#headwhite{
+    font-size: 35px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+.iconics{
+    width: 80px;
+    height: 80px;
+}
+.icondiv{
+    padding-top: 40px;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.icop{
+    margin-top: 15px;
+    color: #007ab7;
+    display: block;
+    font-size: 14px;
+    font-family: 'roboto',sans-serif;
+    text-transform: uppercase;
+}
+.icondiv div{
+    padding: 30px;
 }
