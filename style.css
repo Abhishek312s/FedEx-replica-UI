@@ -234,3 +234,65 @@ body {
     font-weight: 300;
     margin-bottom: 25px;
 }
+.joinTeamBox{
+  background-color: #FAFAFA;
+  /* border: #ff6200 5px solid; */
+  width: 65%;
+  margin:100px auto;
+  text-align: left;
+}
+.joinTeamImg{
+  width: 28rem;
+  height:100%;
+  display: inline;
+  vertical-align: middle;
+}
+.innerTeamBox{
+  width: 46%;
+  float: right;
+  padding: 35px 30px 34px;
+}
+
+.joinTeamHead{
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+}
+.joinTeamPara{
+  font-size: 18px;
+  font-weight: 300;
+}
+.joinTeamAnch{
+  text-transform: uppercase;
+  color:#007ab7;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+.joinTeamAnch:hover{
+  text-decoration: underline;
+}
+.Footer{
+  /* position:sticky; */
+  /* bottom: 0px; */
+  background-color: rgba(72, 2, 129);
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerFoot{
+  display: inline-block;
+  margin-left: 12rem;
+}
+.footerlink{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footercopyright{
+  color: #fff;
+  font-size: 13px;
+  margin-right: 25rem;
+}
